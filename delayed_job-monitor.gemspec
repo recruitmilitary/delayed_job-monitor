@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "bin/delayed_job_monitor",
+     "delayed_job-monitor.gemspec",
      "lib/delayed_job/monitor.rb",
      "spec/delayed_job-monitor_spec.rb",
      "spec/spec.opts",
