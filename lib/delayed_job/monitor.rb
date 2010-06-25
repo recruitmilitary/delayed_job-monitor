@@ -107,7 +107,7 @@ Running jobs:\t\t#{running_jobs}
       end
 
       def failed_jobs
-        @failed_jobs ||= count(["failed_at IS NOT NULL"])
+        @failed_jobs ||= count(["(run_at > ? AND last_error IS NOT NULL) OR failed_at IS NOT NULL", Time.now])
       end
 
       def count(filter = nil)
