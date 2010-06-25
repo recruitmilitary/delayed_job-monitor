@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{delayed_job-monitor}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Michael Guterl"]
-  s.date = %q{2010-06-23}
+  s.date = %q{2010-06-25}
   s.default_executable = %q{delayed_job_monitor}
   s.description = %q{A tool for monitoring the health of a delayed_job work queue}
   s.email = %q{michael@diminishing.org}
